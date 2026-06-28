@@ -1,0 +1,41 @@
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+!.env.local.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.local.example
+.db_password
+**/.db_password
+*.pem
+*.key
+
+# OS / editor cruft
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Voice samples / scratch / screenshots
+_voice_samples/
+_shots/
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.db
+*.sqlite
+*.sqlite3
+
+# Node / Next
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+*.log
