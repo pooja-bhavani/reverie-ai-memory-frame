@@ -10,6 +10,14 @@ Built for the H0 Hackathon · *Hack the Zero Stack with Vercel v0 + AWS Database
 
 ---
 
+## Screens
+
+| The living frame | Memory Atlas |
+|---|---|
+| ![Home](docs/screenshots/01-home.png) | ![Memory Atlas](docs/screenshots/03-atlas.png) |
+| **Reminiscence Mode** | **Cast to any screen** |
+| ![Reminiscence](docs/screenshots/04-reminisce.png) | ![Cast](docs/screenshots/05-cast.png) |
+
 ## What it is
 
 Reverie turns a pile of photos into a living memory. Every photo is understood by
