@@ -6,7 +6,7 @@
 
 Built for the H0 Hackathon · *Hack the Zero Stack with Vercel v0 + AWS Databases*
 
-[Live Demo →](https://vm-v0-poojabhavani19-7425-bf27e77c-4w.vusercontent.net/)
+[Live Demo →](https://frontend-nq1tq3cba-poojas-projects-54cbcd26.vercel.app/)
 </div>
 
 ---
