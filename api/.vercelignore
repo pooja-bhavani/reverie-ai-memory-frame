@@ -1,0 +1,5 @@
+.env
+.db_password
+.venv
+__pycache__
+uploads

@@ -7,8 +7,13 @@ from pathlib import Path
 
 from .config import settings
 
-UPLOAD_DIR = Path(__file__).resolve().parent.parent / "uploads"
-UPLOAD_DIR.mkdir(exist_ok=True)
+# Local dev writes under the project; serverless (read-only FS) falls back to /tmp.
+UPLOAD_DIR = Path(os.environ.get("UPLOAD_DIR", str(Path(__file__).resolve().parent.parent / "uploads")))
+try:
+    UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+except OSError:
+    UPLOAD_DIR = Path("/tmp/reverie-uploads")
+    UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 try:
     import boto3
